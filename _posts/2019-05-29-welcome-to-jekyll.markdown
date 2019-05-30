@@ -5,11 +5,25 @@ date:   2019-05-29 17:05:13 +0800
 categories: jekyll update
 ---
 [NAT模式下CentOS7无法连接外网以及22端口问题解决](NAT模式下CentOS7无法连接外网以及22端口问题解决)
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+1. 需要配置DNS解析才能够识别外部的IP域名。
+首先查看是否有DNS配置
+在虚拟机中输入命令:
+```javascript
+  cat /etc/resolv.conf
+```
+添加DNS配置:
+```javascript
+  vim  /etc/resolv.conf
+  //添加如下配置即可
+  nameserver 8.8.8.8
+  nameserver 8.8.4.4
+```
+2. 打开虚拟网络编辑器
+ 2.1  编辑 >> 虚拟网络编辑器
+#！[Alt]()
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+
 
 {% highlight ruby %}
 def print_hi(name)
