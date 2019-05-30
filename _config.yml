@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   少年辛苦终身事，莫向光阴惰寸功.
 baseurl: "" # the subpath of your site, e.g. /blog
 encoding: "utf-8"
-favicon: favicon.ico
+
 
 url: https://wjhll.com # the base hostname & protocol for your site, e.g. http://example.com
 repository: zwjunhui/zejunhui.github.io
