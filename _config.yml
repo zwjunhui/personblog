@@ -22,13 +22,16 @@ url: "https://wjhll.com" # the base hostname & protocol for your site, e.g. http
 repository: zwjunhui/zejunhui.github.io
 github_url: https://github.com/zwjunhui/personblog
 github_username: zwjunhui
+rss: rss
 
+show_excerpts: false
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
   - kramdown
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
