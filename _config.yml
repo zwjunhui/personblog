@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-portraits: '/assets/logo.jpg'
+portraits: '/assets/logo.jpg 100x'
 title: 影子爱人
 email: wyjunhui@126.com
 author: zwjunhui
@@ -25,11 +25,8 @@ url: "https://wjhll.com" # the base hostname & protocol for your site, e.g. http
 github_url: https://github.com/zwjunhui/personblog
 
 
-SNS: true
-github_username: zwjunhui
-qq: 1090619345
-weixin: 13525900373
 
+github_username: zwjunhui
 
 
 show_excerpts: false
