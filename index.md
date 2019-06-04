@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+home-title: 文章
 ---
 朋友 圈里一个经常夸自己女朋友的男生，这么评价他的女朋友：“恰到好处的别扭，蜻蜓点水的暧昧，保持自在的舒适，偶尔甜蜜的撒娇。”
 
