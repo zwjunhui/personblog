@@ -202,3 +202,21 @@ public class FdfsApi {
 
 
 ```
+#### 配置文件的配置
+```javascript
+spring:
+  servlet:
+    multipart:
+      max-request-size: 184300000
+      max-file-size: 184300000
+
+fdfs:
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image: # 缩图
+    width: 150
+    height: 150
+  web-server-url: 192.168.117.130/ 
+  tracker-list: # tracker地址 可以配置多个
+    - 192.168.117.130:22122 #伺服器ip
+```
