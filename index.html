@@ -29,6 +29,6 @@ layout: default
     {% endfor %}
   </ol>
 
-  {% include pagination.html %}
+  <span class="pagination__page-number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
 
 </div>
