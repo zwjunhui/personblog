@@ -90,6 +90,11 @@ public class PropertiesController {
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
 </dependency>
+<!-- Mybatis -->
+<dependency>
+    <groupId>org.mybatis.spring.boot</groupId>
+    <artifactId>mybatis-spring-boot-starter</artifactId>
+</dependency>
 <!-- MYSQL包 -->
 <dependency>
     <groupId>mysql</groupId>
